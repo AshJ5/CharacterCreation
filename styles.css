@@ -1,0 +1,32 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #202989;
+  color: #f0f0f0;
+  padding: 2em;
+  text-align: center;
+}
+
+a.btn, button {
+  background-color: #ec030b;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  margin-top: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: grab;
+}
+
+a.btn:hover, button:hover {
+  background-color: #000c01;
+}
+
+form label {
+  display: block;
+  margin: 1em 0 0.5em;
+}
+
+input, select {
+  padding: 0.5em;
+  border-radius: 4px;
+  border: none;
+}

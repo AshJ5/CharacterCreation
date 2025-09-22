@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Character Creator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Configure Your Character</h1>
+
+  <form id="characterForm">
+    <label>
+      Name:
+      <input type="text" name="name" required />
+    </label><br>
+
+    <label>
+      Class:
+      <select name="Class">
+        <option value="Sky People">Sky People</option>
+        <option value="Grounder">Grounder</option>
+        <option value="Mountain Men">Mountain Men</option>
+      </select>
+    </label><br>
+
+    <label>
+      Ability:
+      <select name="Ability">
+        <option value="Projectile">Projectile</option>
+        <option value="Combat">Combat</option>
+        <option value="Acid Fog">Acid Fog</option>
+      </select>
+    </label><br>
+
+    <button type="Submit">View Character</button>
+  </form>
+  <script defer src="configure.js"></script>
+</body>
+</html>
